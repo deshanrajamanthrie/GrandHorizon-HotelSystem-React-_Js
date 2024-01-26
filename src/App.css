@@ -29,8 +29,20 @@
 
 .home-Button:hover {
     background-color: #675622;
-
 }
+
+.homePageText {
+    font-size: 4rem;
+    margin: auto;
+    position: absolute;
+    top: 25rem;
+    bottom: 0;
+    right: 0;
+    font-family: Algerian;
+    left: 0;
+}
+
+
 /*================================================Experince Page*/
 
 .cardWithoutBody {
@@ -42,12 +54,10 @@
     text-align: center;
     color: white;
 }
-/*=================================================Footer Styles*/
 
-.footerHeight {
-    height: 75vh;
-    background-image: url("assets/footer.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.9;
-}
+
+
+
+
+
+

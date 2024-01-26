@@ -6,16 +6,20 @@ const Home = () => {
     return (
         <>
             <section className={'vw-100 h-100 border border-danger allBody'}>
-                <div id="carouselExample" className="carousel slide">
+                <div id="carouselExample" className="carousel slide position-relative">
                     <div className="carousel-inner">
                         <div className="carousel-item active vh-100">
                             <img src="src/assets/hhome1.PNG" className="d-block homeImg" alt="2"/>
                         </div>
                         <div className="carousel-item h-100">
                             <img src="src/assets/h02.PNG" className="d-block homeImg" alt="3"/>
+
                         </div>
                         <div className="carousel-item">
                             <img src="src/assets/s032.PNG" className="d-block homeImg" alt="3"/>
+                        </div>
+                        <div className={'vw-100 text-center'}>
+                            <h1 className={'position-absolute text-white homePageText'}>HOTEL GRAND-HORIZON</h1>
                         </div>
                         <section className={'position-absolute homeInputArea opacity-75'}>
                             <InputField type={'date'} placeholder={'Start Date'} optional={'opacity-100'}/>
@@ -37,6 +41,7 @@ const Home = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
+
             </section>
         </>
     );

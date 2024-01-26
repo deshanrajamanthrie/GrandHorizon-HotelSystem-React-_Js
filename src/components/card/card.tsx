@@ -1,5 +1,5 @@
 import {Fragment} from "react";
-
+import styles from './card.module.css'
 
 interface Props {
     children: string;
@@ -11,11 +11,11 @@ const Card = ({children, src}: Props) => {
 
     return (
         <Fragment>
-            <div className="col">
-                <div className="card">
+            <div className={""}>
+                <div className={" "+styles.cardWithOutBody}>
 
                     { // @ts-ignore
-                        <img src={src} className="card-img-top" alt="..."/>
+                        <img src={src} className={" "+styles.imgCard} alt="..."/>
                     }
 
                     <h5 className={'cardWithoutBody p-2'}>{children}</h5>

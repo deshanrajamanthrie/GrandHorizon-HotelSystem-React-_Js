@@ -1,6 +1,7 @@
 .topHeader {
     background-color: gray;
     height: 60px;
+    font-family: "Sitka Display";
 }
 
 
@@ -28,9 +29,17 @@
 
 .cursorPointer {
     cursor: pointer;
+    font-family: "Sitka Display";
 }
 
 .subColPadding {
     padding-right: 80px;
     padding-left: 80px;
+    font-family: "Sitka Display";
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.subHeader {
+    font-family: "Sitka Display";
 }

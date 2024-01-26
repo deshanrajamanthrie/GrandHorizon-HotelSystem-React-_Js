@@ -21,37 +21,37 @@ interface Props {
 
 // @ts-ignore
 const BottomHeader = (props: Props) => {
-
     const [isHeaderClick, setHeaderClickFn] = useState(false);
     const headerDetail: HeaderDetails[] = [];
     headerDetail.push({
         header: "HOME",
         route: "/",
-        detail: [{subHeader: "Desc1", listDetail: ["Python", "Java", "React"]}]
+        detail: [{
+            subHeader: "About the Hotel",
+            listDetail: ["Overview", "Explore Colombo", "Services & Facilities", "Map & Directions"]
+        }]
     });
+
     headerDetail.push({
         header: "DESTINATION",
         route: "/destination",
         detail: [
-            {subHeader: "Desc2", listDetail: ["Python", "Java", "React"]},
-            {subHeader: "Desc3", listDetail: ["Python", "Java", "React"]},
-            {subHeader: "Desc4", listDetail: ["Python", "Java", "React"]},
+            {subHeader: "Our Villas", listDetail: ["Colombo", "Kandy", "Galle", 'Trinco']},
+            {subHeader: "Travelling", listDetail: ["Ella", "Colombo", "Kandy"]},
+            {subHeader: "Adventures", listDetail: ["Pasikuda", "Thalpe", "Mirissa"]}
         ]
     });
     headerDetail.push({
         header: "OFFERS",
         route: "/offers",
-        detail: [
-            {subHeader: "Desc1", listDetail: ["Python", "Java", "React"]},
-            {subHeader: "Desc2", listDetail: ["Python", "Java", "React"]},
-            {subHeader: "Desc3", listDetail: ["Python", "Java", "React"]},
-            {subHeader: "Desc4", listDetail: ["Python", "Java", "React"]},
-        ]
+        detail: []
     });
     headerDetail.push({
         header: "EXPERIENCE",
         route: "/experience",
-        detail: [{subHeader: "Desc1", listDetail: ["Python", "Java", "React"]}]
+        detail: [{subHeader: "For Kids", listDetail: ["Overview", "Adventure Zone", "Adventure Zone"]},
+            {subHeader: "Health & Leisure", listDetail: ["Health Club", "Java", "Chi, The Spa"]}
+        ]
     });
 
     const [headerList, setHeaderListFn] = useState<HeaderDetails>();
@@ -70,6 +70,7 @@ const BottomHeader = (props: Props) => {
                             <li onMouseEnter={() => {
                                 clickEvent(map)
                             }} className={"p-3 text-black text-decoration-none"} key={index}><Link
+                                style={{textDecoration: "none", color: "white"}}
                                 to={map.route!}>{map.header}</Link></li>))}
                     </ul>
                 </nav>

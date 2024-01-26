@@ -1,0 +1,36 @@
+.footerHeight {
+    height: 75vh;
+    background-image: url("../../../assets/footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    background-color: #F7F7F7;
+}
+.footerChild{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    /*border-bottom: 1px solid #DDDDDD;*/
+    padding-top: 20px;
+    align-items: center;
+
+}
+
+/*Font Style*/
+/*footer Main Font*/
+
+.footer-MainText {
+    font-family: "Book Antiqua";
+    font-style: italic;
+    font-weight: bold;
+    color: #6E5C26;
+    letter-spacing: 2px;
+}
+
+/*footer Main Font*/
+.footer-SubText {
+    font-family: system-ui;
+    font-size: 0.9rem;
+
+}

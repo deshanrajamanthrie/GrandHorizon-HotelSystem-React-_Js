@@ -1,0 +1,73 @@
+#destination {
+    margin-top: 30px;
+}
+
+#destination > :first-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#destination > :first-child > select {
+    width: 36vw;
+    padding: 15px;
+    font-size: 1.1rem;
+    /* margin: 14px; */
+    border: 1px solid #e4b118;
+    margin-bottom: 35px;
+    color: #2a55a5;
+    font-family: "Sitka Display";
+    font-style: italic;
+}
+
+#destination > :last-child {
+    width: 100%;
+    margin-bottom: 8vw;
+    display: flex;
+    background-color: white;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#destination > :last-child > section {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+#destination > :last-child img {
+    width: 100%;
+    height: 100%;
+}
+
+#destination > :last-child > section > aside {
+    width: 52%;
+    height: 72%;
+    box-shadow: 0 0 10px #cdc1c1;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    font-family: "Sitka Display";
+    margin: auto;
+    font-style: italic;
+    right: -27%;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    z-index: 10;
+    display: flex;
+    padding: 12px;
+    color: #050770;
+    flex-direction: column;
+}
+
+.destinationButton {
+    width: 9vw;
+    height: 6vh;
+    border: 2px solid #a38018;
+    background: white;
+    color: #a38018;
+    margin-top: 10px;
+
+}
