@@ -1,3 +1,4 @@
+/*======================================Home Image Styles */
 .homeImg {
     height: 100vh;
     width: 100vw;
@@ -25,11 +26,14 @@
     border-radius: 6px;
     background-color: #937A33;
 }
-.home-Button:hover{
+
+.home-Button:hover {
     background-color: #675622;
 
 }
-.cardWithoutBody{
+/*================================================Experince Page*/
+
+.cardWithoutBody {
     position: absolute;
     left: 0;
     right: 0;
@@ -38,4 +42,12 @@
     text-align: center;
     color: white;
 }
+/*=================================================Footer Styles*/
 
+.footerHeight {
+    height: 75vh;
+    background-image: url("assets/footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+}

@@ -6,6 +6,7 @@ import Home from "./views/home.tsx";
 import Destination from "./views/destination.tsx";
 import Experince from "./views/experince.tsx";
 import Offers from "./views/offers.tsx";
+import Footer from "./views/footer.tsx";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
 
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </Fragment>
     )

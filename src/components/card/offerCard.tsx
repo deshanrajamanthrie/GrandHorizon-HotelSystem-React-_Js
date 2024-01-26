@@ -17,7 +17,7 @@ const OfferCard = ({topic, children, src, description, lastDescription, callBack
         <Fragment>
             <div className={"card " + styles.offerCard}>
                 {
-                    <img src={src} className="card-img-top" alt="..."/>
+                    <img src={src} className={styles.offerCardImage} alt="..."/>
                 }
                 <div className="d-flex justify-content-center align-items-center flex-column p-4 ms-0">
                     <p className="card-title text-center ms-0">{topic}</p>

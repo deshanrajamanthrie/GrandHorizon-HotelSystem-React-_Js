@@ -7,8 +7,8 @@
 
 
 .offerCard :hover {
-    transform: scale(1.01);
-    transition: 1.2s;
+   /* transform: scale(1.01);
+    transition: 1.2s;*/
 }
 
 .viewButtonOnOffers {
@@ -19,4 +19,9 @@
     color: #a38018;
     margin-top: 10px;
 
+}
+
+.offerCardImage{
+    width:100%;
+    height: 160px;
 }
