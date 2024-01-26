@@ -29,3 +29,21 @@
     background-color: #675622;
 
 }
+.cardWithoutBody{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.viewButton-OnOffers{
+    width: 9vw;
+    height: 6vh;
+    border: 2px solid #a38018;
+    background: white;
+    color: #a38018;
+
+}
