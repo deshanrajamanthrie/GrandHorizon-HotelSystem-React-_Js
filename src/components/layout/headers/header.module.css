@@ -1,0 +1,36 @@
+.topHeader {
+    background-color: gray;
+    height: 60px;
+}
+
+
+.bottomHeader {
+    height: 35px;
+    background-color: #333333;
+
+}
+
+.headerMain {
+    position: relative;
+
+}
+
+.headerDetail {
+    bottom: 50px;
+}
+
+.bottomHeaderDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.subColPadding {
+    padding-right: 80px;
+    padding-left: 80px;
+}

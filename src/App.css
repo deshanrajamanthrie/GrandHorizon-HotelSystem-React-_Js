@@ -1,0 +1,31 @@
+.homeImg {
+    height: 100vh;
+    width: 100vw;
+}
+
+.homeInputArea {
+    width: 80vw;
+    height: 12vh;
+    bottom: 20px;
+    background-color: white;
+    opacity: 1;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.home-Button {
+    width: 92px;
+    border: 1px solid white;
+    height: 39px;
+    border-radius: 6px;
+    background-color: #937A33;
+}
+.home-Button:hover{
+    background-color: #675622;
+
+}
