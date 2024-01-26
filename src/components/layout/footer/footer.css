@@ -6,7 +6,8 @@
     opacity: 0.9;
     background-color: #F7F7F7;
 }
-.footerChild{
+
+.footerChild {
     width: 80%;
     height: 80%;
     display: flex;
@@ -33,4 +34,16 @@
     font-family: system-ui;
     font-size: 0.9rem;
 
+}
+
+.btnEmailColor {
+    color: #2c2c29;
+    border: 1px solid #6E5C26;
+}
+
+.socialMedia {
+    width: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
