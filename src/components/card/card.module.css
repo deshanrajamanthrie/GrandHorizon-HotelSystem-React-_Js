@@ -1,0 +1,22 @@
+.offerCard {
+    width: 25vw;
+    height: 12vh;
+    border: none !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.offerCard :hover {
+    transform: scale(1.01);
+    transition: 1.2s;
+}
+
+.viewButtonOnOffers {
+    width: 9vw;
+    height: 6vh;
+    border: 2px solid #a38018;
+    background: white;
+    color: #a38018;
+    margin-top: 10px;
+
+}
